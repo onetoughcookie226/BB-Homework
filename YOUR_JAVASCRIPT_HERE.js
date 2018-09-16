@@ -11,23 +11,35 @@ let hero = {
     }
 }
 
-// hero.assign()
-
 // rest function takes an bject as an argument and reassign the health property of the object , value 10
 // return the object from the function
-function rest() {
-    console.log(hero.health = 10)
+
+function rest(hero) {
     // Set the value of the property health to 10
      hero.health = 10
+    //  console.log(hero.health)
+    return hero
 }
-rest()
 
-person.rest
-// define an object 
+var health = document.getElementById("inn");
+health.addEventListener('click', function(event){
+    console.log("test")
+    // hero.health = 10
+    rest(hero)
+})
+
+// document.getElementById('inn').addEventListener('click', function(event){ 
+//     console.log('clicking the img') 
+//     hero.health = 10
+// })
+
+
+// Picking up Items
 // takes a hero-like object as the first argument and an object as the second argument
 // Adds the weapon object as the last element of the inventory array of the hero-like object
 
 // get the value of the 
+
 function pickUpItem(newHero, ) {
     getAttribute.weapon (type, "dagger" )
 }
